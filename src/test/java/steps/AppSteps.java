@@ -45,6 +45,12 @@ public class AppSteps extends  AndroidSetup {
     @And("^I Select the ([^\\\"]*)$")
     public void select_checkbox(String locator) throws Throwable {
         new HomePage(driver).click(locator);
+
+    }
+
+    @And("^I close the keypad")
+    public  void close_keypad()
+    {
         driver.navigate().back();
     }
 

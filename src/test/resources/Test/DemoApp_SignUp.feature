@@ -8,6 +8,7 @@ Feature: App-SignUp
     And I Enter the Value <name> in TextField App_SignUp_Name
     And I Enter the Value <email> in TextField App_SignUp_Email
     And I Enter the Value <password> in TextField App_SignUp_Password
+    And I close the keypad
     And I Select the App_SignUp_Gender
     And I Select the App_SignUp_Version
     And I Click on App_SignUp_Submit_Button
